@@ -157,6 +157,6 @@ php artisan test
 
 ---
 
-**Maintained by:** [Mohammed Ahmed Arafat](mailto:mohammed@example.com)
+**Maintained by:** [Mohammed Ahmed Arafat](mailto:Mohammed.poop444@gmail.com)
 
 Ready for review ✅
