@@ -135,20 +135,20 @@ php artisan test
 | Task                          | Time    |
 |-------------------------------|---------|
 | Module Scaffolding            | ~10 min |
-| CRUD + Validation             | ~25 min |
+| CRUD + Validation             | ~10 min |
 | Service Layer + Resources     | ~15 min |
 | Filtering Logic               | ~10 min |
 | Observer + Notification       | ~10 min |
 | PHPUnit Test                  | ~10 min |
 | Swagger Docs (Scribe)         | ~10 min |
 | Documentation & Review        | ~10 min |
-| **Total**                     | **~1.5 hrs** |
+| **Total**                     | **~1.25 hrs** |
 
 ---
 
 ## 📚 Resources
 
-- Laravel 11.x Documentation
+- Laravel 12.x Documentation
 - Laravel Modules (nwidart/laravel-modules)
 - Scribe API Docs
 - PHPUnit
