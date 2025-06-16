@@ -1,0 +1,14 @@
+{
+    "name": "Expenses",
+    "alias": "expenses",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Expenses\\App\\Providers\\ExpensesServiceProvider",
+        "Modules\\Expenses\\App\\Providers\\EventServiceProvider",
+        "Modules\\Expenses\\App\\Providers\\RouteServiceProvider"
+
+    ],
+    "files": []
+}
