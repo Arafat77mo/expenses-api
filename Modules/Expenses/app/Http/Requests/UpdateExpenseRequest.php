@@ -11,7 +11,13 @@ class UpdateExpenseRequest extends FormRequest
      */
     public function rules(): array
     {
-        return [];
+        return [
+    'title' => 'sometimes|string|max:255',
+    'amount' => 'sometimes|numeric|min:0',
+    'category' => 'sometimes|string',
+    'expense_date' => 'sometimes|date',
+    'notes' => 'nullable|string',
+];
     }
 
     /**
