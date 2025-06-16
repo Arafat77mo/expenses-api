@@ -26,32 +26,34 @@ A modular, scalable Expense Management system built using Laravel 12, following 
 ```
 Modules/
 └── Expenses/
-    ├── App/
-    │   └── Services/
-    │       └── ExpenseService.php
-    ├── Database/
-    │   └── Migrations/
-    ├── Entities/
-    │   └── Expense.php
-    ├── Enums/
-    │   └── ExpenseCategory.php
-    ├── Http/
-    │   ├── Controllers/
-    │   │   └── Api/V1/ExpenseController.php
-    │   ├── Requests/
-    │   │   ├── StoreExpenseRequest.php
-    │   │   └── UpdateExpenseRequest.php
-    ├── Notifications/
-    │   └── ExpenseCreatedNotification.php
-    ├── Observers/
-    │   └── ExpenseObserver.php
-    ├── Tests/
-    │   └── Feature/
-    │       └── ExpenseTest.php
-    ├── Providers/
-    │   └── ModuleServiceProvider.php
-    └── Routes/
-        └── api.php
+    ├── app/
+    │   ├── Services/
+    │   ├── Enums/
+    │   ├── Transformers/
+    │   ├── Helpers/
+    │   ├── Observers/
+    │   ├── Providers/
+    │   ├── Http/
+    │   │   ├── Controllers/
+    │   │   │   └── Api/V1/
+    │   │   └── Requests/
+    │   └── Models/
+    │       └── Expense.php
+    ├── config/
+    │   └── config.php
+    ├── database/
+    │   ├── factories/
+    │   ├── migrations/
+    │   └── seeders/
+    ├── resources/
+    │   └── views/
+    ├── routes/
+    │   └── api.php
+    ├── tests/
+    │   ├── Feature/
+    │   └── Unit/
+    ├── composer.json
+    └── module.json
 ```
 
 ---
